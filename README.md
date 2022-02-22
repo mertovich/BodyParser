@@ -29,7 +29,7 @@ func indexHome(w http.ResponseWriter, r *http.Request) {
 	
 	maps := BodyParser.Parser(bodyString)
 	mapsJson, _ := json.Marshal(maps)
-	fmt.Fprint(w, string(mapListJSON))
+	fmt.Fprint(w, string(mapsJson))
 }
 ```
 ## License
