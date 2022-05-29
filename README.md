@@ -8,11 +8,11 @@ It divides the string that comes with the request body and transfers it into a m
 ### Installing
 import to your project
 ```go
-import "github.com/Periyot/BodyParser"
+import "github.com/mertovich/BodyParser"
 ```
 
 ```go
-go get github.com/Periyot/BodyParser
+go get github.com/mertovich/BodyParser
 ```
 
 ### Quick start
